@@ -9,6 +9,11 @@ body {
 * {
   box-sizing: border-box;
 }
+
+#clearfix {
+  clear: both;
+}
+
 /* general */
 .container {
   width: 100%;
@@ -148,28 +153,28 @@ h3,
   border: 1px solid #ddd;
 }
 /* portfolio page */
-.work {
+#work1, #work2, #work3, #work4, #work5, #work6, #work7 {
   box-sizing: border-box;
-  position: relative;
+  /*position: relative;*/
   float: left;
   width: 274px;
+  height: 250px;
 /*  margin: 20px 0 25px;*/
   margin: 10px;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 /* .work:nth-child(even) {
   margin-right: 40px;
   margin-right: 20px;
 }*/
-.work img {
-  width: 100%;
+.project {
+  width: 274px;
+  height: 150px;
   border: 0 none;
   opacity: 0.8;
 }
-.work h3 {
-  position: absolute;
+.bar {
   bottom: 10px;
-  width: 100%;
   padding: 10px;
   margin-bottom: 0;
   font-weight: 300;
@@ -179,6 +184,11 @@ h3,
   background: #4aaaa5;
   border-bottom: 0;
 }
+
+.projectLink {
+  text-decoration: none;
+}
+
 .auth-image {
   float: left;
   width: 160px;
@@ -259,7 +269,7 @@ nav a {
 }
 
   .sidebar {
-  	width: 100%;
+    width: 100%;
     margin-top: 40px;
     background: blue;
     /*float: left;*/
@@ -287,8 +297,8 @@ nav a {
 }
 
   #logo {
-  	width: 100%;
-  	clear: both;
+    width: 100%;
+    clear: both;
 
   }
 
