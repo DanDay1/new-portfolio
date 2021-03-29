@@ -153,7 +153,7 @@ h3,
   border: 1px solid #ddd;
 }
 /* portfolio page */
-#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8, #work9 {
+#work0, #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8, #work9 {
   box-sizing: border-box;
   /*position: relative;*/
   float: left;
@@ -236,4 +236,6 @@ input[type=submit] {
     width: 100%;
   }
 }
+
+
 
