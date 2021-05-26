@@ -63,8 +63,7 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  /*color: #fff;*/
-  color: pink;
+  color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
 }
